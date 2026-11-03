@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#20221f">
+<meta name="description" content="从T-64技术底子、燃气轮机路线，到T-80B、T-80U与哈尔科夫柴油分支，读懂苏联T-80主战坦克的发展史。">
+<title>T-80：燃气轮机轰鸣之后｜装甲志</title>
+<style>
+:root{--ink:#242622;--muted:#73766d;--paper:#f3f0e8;--white:#fbfaf6;--line:#d8d4c9;--accent:#b54c32;--olive:#656a50;--gold:#c3a76e;--serif:"Noto Serif SC","Songti SC","STSong",Georgia,serif;--sans:Inter,"PingFang SC","Microsoft YaHei",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.8}a{color:inherit}::selection{background:#d5b583;color:#1d201d}.topbar{height:58px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,6vw,88px);border-bottom:1px solid #ffffff25;background:#20221f;color:#f7f3ea;letter-spacing:.06em;font-size:12px}.brand{font-weight:800;letter-spacing:.18em}.brand i{font-style:normal;color:#d69a72}.topbar nav{display:flex;gap:24px}.topbar a{text-decoration:none;color:#d5d4cc}.topbar a:hover{color:white}.hero{position:relative;overflow:hidden;background:#20221f;color:#f5f1e7;padding:76px clamp(22px,10vw,145px) 80px;min-height:510px;display:grid;grid-template-columns:1fr minmax(230px,360px);gap:50px;align-items:center}.hero:after{content:"80";position:absolute;right:5%;bottom:-.55em;font:900 clamp(220px,39vw,600px)/1 var(--sans);color:#ffffff08;pointer-events:none}.eyebrow,.kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#c89c71;font-weight:700}.hero h1{font:700 clamp(42px,7vw,86px)/1.12 var(--serif);letter-spacing:-.04em;margin:22px 0 18px;max-width:800px}.hero h1 span{color:#d18c68}.dek{font:400 clamp(16px,2vw,20px)/1.9 var(--serif);color:#d4d2c9;max-width:680px;margin:0}.hero-meta{font-size:11px;color:#a8a99f;letter-spacing:.08em;margin-top:30px}.hero-figure{position:relative;z-index:1}.hero-figure img{width:100%;height:230px;object-fit:cover;filter:saturate(.7) contrast(1.04);border:1px solid #ffffff2b}.hero-figure figcaption{color:#aaa99f;font-size:10px;line-height:1.6;margin-top:9px}.hero-figure figcaption a{color:#d2b189}.hero .hero-figure .fallback{color:#eee;background:#34372e;min-height:230px}
+.intro-strip{background:#ded9cb;padding:21px clamp(22px,10vw,145px);display:flex;gap:28px;align-items:flex-start;font-size:13px;line-height:1.7}.intro-strip strong{white-space:nowrap;color:var(--accent);letter-spacing:.08em}.layout{max-width:1160px;margin:0 auto;padding:64px 24px 90px;display:grid;grid-template-columns:minmax(0,760px) 220px;gap:72px}.article{min-width:0}.article p{font:17px/2 var(--serif);margin:0 0 20px;color:#383a34}.article .lead{font-size:20px;line-height:2.05;color:#292b26}.article h2{font:700 31px/1.35 var(--serif);letter-spacing:-.025em;margin:65px 0 20px;padding-top:15px;border-top:1px solid var(--line)}.article h3{font:700 20px/1.5 var(--serif);margin:30px 0 10px}.dropcap:first-letter{float:left;font:700 64px/.85 var(--serif);color:var(--accent);padding:10px 9px 0 0}.callout{margin:32px 0;padding:19px 22px 20px;border-left:3px solid var(--accent);background:#e9e4d8;font:15px/1.85 var(--serif);color:#474940}.callout strong{color:#a34630}.figure{margin:29px 0 32px;background:#e7e2d7;padding:9px}.figure img{display:block;width:100%;height:auto;max-height:430px;object-fit:cover;background:#d4d0c6}.figure figcaption{font:11px/1.65 var(--sans);color:#606258;padding:10px 5px 4px}.figure figcaption a{color:#8c432f;text-decoration:none;border-bottom:1px solid #be9b86}.figure .credit{display:block;color:#88897f;font-size:10px;margin-top:2px}.fallback{min-height:210px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:#ded9cc;color:#64665b;padding:20px;font-size:13px}.fallback b{font:700 14px var(--sans);color:#55584e;letter-spacing:.08em}.fallback small{margin-top:7px}.timeline{position:relative;margin:32px 0 20px 8px;padding:0 0 0 28px;border-left:1px solid #b7b3a7}.timeline-item{position:relative;padding:0 0 28px}.timeline-item:before{content:"";position:absolute;left:-34px;top:9px;width:11px;height:11px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--paper)}.timeline time{font-size:12px;font-weight:800;color:var(--accent);letter-spacing:.12em}.timeline h3{margin:3px 0 4px;font:700 19px var(--serif)}.timeline p{font:15px/1.8 var(--serif);margin:0;color:#5b5c54}.variant-list{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:25px 0 32px}.variant{padding:15px;background:#e8e3d8;border-top:2px solid var(--olive)}.variant b{display:block;font:700 15px var(--sans);color:#33362f}.variant span{font-size:12px;color:#686a61}.spec{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.spec span{border:1px solid var(--line);padding:8px 12px;font-size:11px;color:#67695f}.spec b{color:#292b26;font-size:13px;margin-right:4px}.sidebar{align-self:start;position:sticky;top:32px;border-top:2px solid var(--ink);padding-top:15px}.sidebar .side-label{font-size:10px;color:var(--muted);letter-spacing:.17em;font-weight:700}.sidebar ol{padding-left:18px;margin:14px 0}.sidebar li{padding:4px 0;font-size:12px;color:#66685f}.sidebar a{text-decoration:none}.sidebar a:hover{color:var(--accent)}.sidebar .note{font:12px/1.75 var(--serif);color:#797a70;margin-top:25px;padding-top:17px;border-top:1px solid var(--line)}.sources{background:#262823;color:#e8e4d9;padding:50px max(24px,calc((100% - 1110px)/2)) 40px}.sources h2{font:700 22px var(--serif);margin:0 0 14px}.sources p{font-size:12px;line-height:1.8;color:#b6b8ad;max-width:800px}.sources ol{padding-left:20px;max-width:900px}.sources li{font-size:12px;line-height:1.8;color:#d0cec5;padding:5px 0}.sources a{color:#d7b58a}.sources .small{border-top:1px solid #494b44;margin-top:28px;padding-top:17px;font-size:10px;color:#9c9e93}.backtop{display:inline-block;margin-top:10px;color:#d6b38a!important;text-decoration:none;font-size:11px}.image-credit-link{font-size:10px}
+@media(max-width:850px){.hero{grid-template-columns:1fr;padding-top:56px}.hero-figure{max-width:440px}.layout{grid-template-columns:1fr;gap:0;padding-top:45px}.sidebar{position:static;order:-1;margin-bottom:28px}.sidebar ol{display:flex;gap:8px;flex-wrap:wrap;list-style:none;padding:0}.sidebar li{border:1px solid var(--line);padding:3px 8px}.sidebar .note{display:none}}
+@media(max-width:520px){.topbar{height:52px}.topbar nav{gap:12px}.topbar nav a{font-size:10px}.hero{min-height:0;padding:48px 22px}.hero h1{font-size:45px}.hero-figure img{height:190px}.intro-strip{display:block}.intro-strip strong{display:block;margin-bottom:5px}.article p{font-size:16px}.article .lead{font-size:18px}.article h2{font-size:27px;margin-top:50px}.variant-list{grid-template-columns:1fr}.layout{padding-left:20px;padding-right:20px}}
+@media print{.topbar nav,.sidebar,.backtop{display:none}.hero{background:#fff;color:#222;padding:35px}.hero .dek,.hero .hero-meta{color:#555}.layout{display:block;padding:25px}.sources{background:#fff;color:#222}.sources p,.sources li{color:#444}}
+</style>
+</head>
+<body id="top">
+<header class="topbar"><div class="brand">装甲<span><i>·</i>志</span></div><nav aria-label="页面导航"><a href="#story">正文</a><a href="#timeline">时间线</a><a href="#sources">资料来源</a></nav></header>
+<section class="hero" aria-labelledby="title">
+  <div><div class="eyebrow">装甲史 · 苏联主战坦克</div><h1 id="title">T-80：<br><span>燃气轮机轰鸣之后</span></h1><p class="dek">它把航空发动机的思路塞进履带底盘，也把速度、油耗与后勤保障之间的取舍，变成一场持续数十年的工程实验。</p><div class="hero-meta">一篇关于技术选择、升级分支与时代遗产的故事　/　阅读约 8 分钟</div></div>
+  <figure class="hero-figure"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Soviet_T-80_tank.JPEG/960px-Soviet_T-80_tank.JPEG" alt="一辆苏联T-80坦克，配有反应装甲" loading="eager" onerror="imgFallback(this)"><figcaption>一辆苏联 T-80，反应装甲清晰可见。<br><a href="https://commons.wikimedia.org/wiki/File:Soviet_T-80_tank.JPEG" target="_blank" rel="noopener">图源：Wikimedia Commons</a><span class="credit">美国国防部影像，1987；美国公有领域</span></figcaption></figure>
+</section>
+<div class="intro-strip"><strong>先说结论</strong><span>T-80不是从零开始的新坦克，而是苏联在T-64基础上押注燃气轮机的一次高性能升级。它的故事，核心不是“最快”，而是工程师如何用更强的动力，换取战场机动，同时承担更重的燃料与维护成本。</span></div>
+<main class="layout" id="story">
+<article class="article">
+<p class="lead dropcap">如果把冷战坦克竞赛想成一场耐力赛，T-80像一位突然换上喷气心脏的选手：启动快、加速猛，寒冷天气也能迅速进入状态。但发动机越“像飞机”，坦克部队就越要面对另一道题——油从哪里来，维护队伍又该如何跟上？</p>
+<p>这就是T-80令人着迷的地方。它并非只是一件武器，也是一项关于路线选择的工业工程：在既有坦克平台上，苏联设计团队试图把燃气轮机的高功率密度，转化为地面部队的机动优势。</p>
+
+<h2 id="origin"><span class="kicker">01 / 起点</span><br>从T-64的底子，走向另一条动力路线</h2>
+<p>故事要从T-64说起。上世纪六十年代，苏联已经拥有结构紧凑、火力强大的T-64；但新车的复杂动力系统和可靠性挑战，也促使设计者继续探索。列宁格勒基洛夫工厂的设计团队，在尼古拉·波波夫领导下，发展出以T-64为基础、重新适配动力与底盘的方案。原型阶段常以“219工程”（Object 219）称呼。</p>
+<p>这不是简单地把发动机换个型号。燃气轮机转速高、体积相对紧凑，输出功率的方式也不同，传动、冷却、空气过滤、油箱布局与悬挂都必须一起协调。早期T-80由此保留了苏联坦克设计的一些共同基因，却形成了鲜明的动力性格。</p>
+<figure class="figure"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Soviet_T-80_tank.JPEG/1280px-Soviet_T-80_tank.JPEG" alt="1987年的苏联T-80坦克照片" loading="lazy" onerror="imgFallback(this)"><figcaption>冷战后期的T-80：动力路线之外，防护也持续升级。<a class="image-credit-link" href="https://commons.wikimedia.org/wiki/File:Soviet_T-80_tank.JPEG" target="_blank" rel="noopener">查看原图与资料</a><span class="credit">美国国防部影像，1987；美国公有领域</span></figcaption></figure>
+<div class="callout"><strong>一个容易混淆的说法：</strong>1976年通常被作为T-80正式列装节点；不同资料对原型、投产、部队接装的年份表述并不完全一致。稳妥的讲法是：它在七十年代中期完成定型并开始生产，随后逐步进入部队。</div>
+
+<h2 id="turbine"><span class="kicker">02 / 核心</span><br>为什么要给坦克装燃气轮机？</h2>
+<p>燃气轮机最直观的吸引力，是动力响应。冷启动和低温环境下，它比传统柴油机更容易快速进入工作状态；高功率输出也让约四十余吨级的T-80拥有不错的加速与机动表现。对强调快速反应、长距离机动的苏军规划者来说，这些特性很有吸引力。</p>
+<p>但燃气轮机也有一张不太讨喜的账单：尤其在低负荷、怠速等工况下，燃料消耗可能偏高；进气系统对沙尘和维护条件也有要求。于是，T-80在动力性能上的优势，必须与补给、维护、训练和部署环境一起衡量。它不是“性能无代价”的捷径，而是把成本从发动机性能转移到了保障体系。</p>
+<div class="spec"><span><b>动力路线</b>燃气轮机</span><span><b>首批型号</b>GTD-1000T 系列</span><span><b>设计单位</b>列宁格勒基洛夫工厂</span></div>
+<div class="callout">工程史上最有意思的地方，常常不是某项指标“赢了”，而是一个选择会如何改变整套体系。T-80让坦克的动力问题，从“发动机够不够强”变成了“部队能不能持续供养这台发动机”。</div>
+
+<h2 id="variants"><span class="kicker">03 / 演进</span><br>从T-80B到T-80U：不断补齐战斗力</h2>
+<p>早期T-80只是开场。面对不断变化的威胁，后续改型陆续强化火控、装甲和武器系统。1978年前后出现的T-80B，是一次关键跃升：新型火控与炮射导弹能力，让它不再只靠机动性吸引目光。到八十年代，反应装甲等改进又把防护推上新的台阶。</p>
+<div class="variant-list"><div class="variant"><b>T-80B / T-80BV</b><span>火控与武器系统升级；BV进一步加装反应装甲。</span></div><div class="variant"><b>T-80U</b><span>八十年代中期的深度改进型，强化防护、火控与动力系统。</span></div><div class="variant"><b>T-80UD</b><span>哈尔科夫发展出的柴油动力支线，以6TD系列发动机替代燃气轮机。</span></div><div class="variant"><b>T-80BVM</b><span>后苏联时期的现代化改造型号，说明旧平台仍有升级空间。</span></div></div>
+<p>值得特别注意的是T-80UD。它沿用T-80家族的总体思路，却换上哈尔科夫研制的6TD柴油机。换句话说，T-80并非只有一种“涡轮派”结局：同一平台家族里，也有人尝试以柴油机回应燃料经济性、产业条件和保障体系的现实需求。</p>
+<figure class="figure"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/T-80U_%281%29.jpg/1280px-T-80U_%281%29.jpg" alt="俄罗斯陆军T-80U坦克在泥地训练场行驶" loading="lazy" onerror="imgFallback(this)"><figcaption>训练场上的T-80U：机动性仍是这条技术路线的招牌之一。<a class="image-credit-link" href="https://commons.wikimedia.org/wiki/File:T-80U_(1).jpg" target="_blank" rel="noopener">查看原图与资料</a><span class="credit">Vitaly V. Kuzmin 摄，2011；CC BY-SA 4.0</span></figcaption></figure>
+
+<h2 id="timeline"><span class="kicker">04 / 时间线</span><br>一条不断分叉的技术路线</h2>
+<div class="timeline">
+<div class="timeline-item"><time>1960年代</time><h3>从T-64平台探索燃气轮机</h3><p>苏联工程团队围绕燃气轮机坦克展开试验，逐步形成Object 219方案。</p></div>
+<div class="timeline-item"><time>1976</time><h3>T-80进入服役序列</h3><p>苏军接纳这款新型燃气轮机主战坦克；早期批次生产与部队部署随后展开。</p></div>
+<div class="timeline-item"><time>1978 起</time><h3>T-80B等改型接棒</h3><p>火控、武器系统与防护能力接连升级，家族开始分化。</p></div>
+<div class="timeline-item"><time>1980年代中期</time><h3>T-80U与T-80UD出现</h3><p>一支继续深化涡轮动力路线，另一支在哈尔科夫转向柴油动力。</p></div>
+<div class="timeline-item"><time>1991 之后</time><h3>苏联解体，生产与使用版图改变</h3><p>工厂、库存与技术传承分属不同国家；T-80UD的工业脉络留在乌克兰，并成为后来乌克兰坦克发展的重要技术背景之一。</p></div>
+<div class="timeline-item"><time>2010年代至今</time><h3>旧车翻新与现代化改造</h3><p>包括T-80BVM在内的现代化项目，让部分T-80继续服役。它的存在更多说明旧平台可被升级，不代表它能摆脱现代战场对侦察、防护与后勤的严苛要求。</p></div>
+</div>
+
+<h2 id="meaning"><span class="kicker">05 / 回看</span><br>T-80留下的，不只是“快”</h2>
+<p>如果只用“世界上第一种燃气轮机坦克”概括T-80，很容易把它讲成一个噱头。更准确的理解是：T-80是苏联把航空动力技术大规模引入主战坦克的一次系统性尝试。它的速度和低温表现有现实价值；油耗、维护复杂度与工业成本，同样是这段历史不可分割的一部分。</p>
+<p>它也记录了苏联坦克工业内部的竞争与妥协：列宁格勒的涡轮方案、哈尔科夫的柴油分支，以及不同工厂和设计局各自推动的改进路径。冷战结束后，政治边界变化又让这条技术血脉分散到不同国家。</p>
+<p>所以，T-80的故事不是一条从先进走向落后的直线，而是一连串工程选择的叠加：当机动性值得付出多少成本？一款坦克可以沿着同一平台走出多少种答案？这两个问题，至今仍能帮助我们读懂装甲车辆的发展史。</p>
+<figure class="figure"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/T-80U_tank_interior_-01.jpg/1280px-T-80U_tank_interior_-01.jpg" alt="T-80U坦克内部，炮手工作位置" loading="lazy" onerror="imgFallback(this)"><figcaption>车内空间提醒我们：纸面上的性能，最终要由乘员与维护人员共同兑现。<a class="image-credit-link" href="https://commons.wikimedia.org/wiki/File:T-80U_tank_interior_-01.jpg" target="_blank" rel="noopener">查看原图与资料</a><span class="credit">Vitaly V. Kuzmin 摄，2010；CC BY-SA 4.0</span></figcaption></figure>
+<div class="callout"><strong>一句话记住：</strong>T-80是一款以燃气轮机为核心标签、以T-64为技术起点、并在不同工业体系里分化发展的苏联主战坦克家族。</div>
+</article>
+<aside class="sidebar"><div class="side-label">本篇目录</div><ol><li><a href="#origin">从T-64出发</a></li><li><a href="#turbine">燃气轮机的取舍</a></li><li><a href="#variants">家族改型</a></li><li><a href="#timeline">发展时间线</a></li><li><a href="#meaning">历史回看</a></li></ol><div class="note">阅读提示<br>型号名称容易混淆：T-80B、T-80U与T-80UD属于同一家族的不同发展分支，不能把其中一型的配置直接套用到全部T-80。</div></aside>
+</main>
+<footer class="sources" id="sources"><h2>资料与图像来源</h2><p>正文依据公开博物馆资料、美国陆军专业期刊与军工企业公开材料交叉整理。部分型号的试制、投产和列装年份在不同资料中存在口径差异，文中采用常见且较稳妥的时间范围。</p><ol>
+<li>俄罗斯军事与劳动光荣博物馆，<a href="https://ar.culture.ru/en/subject/osnovnoy-tank-t-80" target="_blank" rel="noopener">“T-80 main battle tank”</a>：设计单位、设计师、早期批次与燃气轮机特征。</li>
+<li>美国陆军《ARMOR》杂志（1987年1—2月），<a href="https://www.benning.army.mil/Armor/eARMOR/content/issues/1987/JAN_FEB/ArmorJanuaryFebruary1987web.pdf" target="_blank" rel="noopener">T-80与苏联坦克发展的同期专业讨论</a>。</li>
+<li>美国陆军《ARMOR》杂志（1998年7—8月），<a href="https://www.benning.army.mil/armor/EArmor/content/issues/1998/JUL_AUG/ArmorJulyAugust1998web.pdf" target="_blank" rel="noopener">T-80B、反应装甲与T-80U发展背景</a>。</li>
+<li>Rostec / 乌拉尔车辆厂公开资料，<a href="https://www.rostec.ru/media/news/t-80bvm-letayushchiy-tank-snova-v-stroyu/" target="_blank" rel="noopener">T-80BVM现代化改造</a>。</li>
+<li>乌克兰国防工业目录，<a href="https://progress.gov.ua/wp-content/uploads/2018/08/katalog-progress-2018-2019_armored.pdf" target="_blank" rel="noopener">6TD-1柴油机用于T-80UD的产品资料</a>。</li>
+</ol><p>文中摄影图片均逐张对应正文内容，来自Wikimedia Commons；图注标出作者、年份与许可。若图片源站无法访问，可点击图源链接查看。美国国防部两张T-80影像为美国公有领域；T-80U训练场照片与车内照片由Vitaly V. Kuzmin拍摄，按CC BY-SA 4.0使用。</p><a class="backtop" href="#top">↑ 回到页首</a><div class="small">装甲志 · 技术史专题　/　独立单页 HTML，无需安装或构建工具</div></footer>
+<script>
+function imgFallback(img){const box=document.createElement('div');box.className='fallback';box.innerHTML='<b>图片暂时无法载入</b><small>请点击下方图注中的图源链接查看原图。此处不以其他照片替代，避免图文错配。</small>';img.replaceWith(box)}
+</script>
+</body>
+</html>
